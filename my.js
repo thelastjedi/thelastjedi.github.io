@@ -2,6 +2,8 @@
 var aText = new Array(
 "May the 4th",
 "be with you!",
+"",
+"",
 "*pew* *pew* *pew*"
 );
 var iSpeed = 100; 
