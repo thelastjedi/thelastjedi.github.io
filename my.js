@@ -1,10 +1,10 @@
 //github.com/ronv/Typewriter.js
 var aText = new Array(
-"May the 4th",
-"be with you!",
+"Hi",
+"Website is currently under construction!",
 "",
 "",
-"*pew* *pew* *pew*"
+"kthxbai"
 );
 var iSpeed = 100; 
 var iIndex = 0; 
