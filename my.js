@@ -1,10 +1,6 @@
 //github.com/ronv/Typewriter.js
 var aText = new Array(
-"Hi",
-"Website is currently under construction!",
-"",
-"",
-"kthxbai"
+"New branch"
 );
 var iSpeed = 100; 
 var iIndex = 0; 
