@@ -1,6 +1,6 @@
 //github.com/ronv/Typewriter.js
 var aText = new Array(
-"New branch"
+"Let's try something different"
 );
 var iSpeed = 100; 
 var iIndex = 0; 
