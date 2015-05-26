@@ -1,7 +1,12 @@
 //github.com/ronv/Typewriter.js
 var aText = new Array(
-"This website is currently under construction.",
-"Check back again later."
+"Mr. Meet,",
+"Please take 5 almonds everyday",
+"",
+"",
+"Dear Garima",
+"Get lost",
+""
 );
 var iSpeed = 100; 
 var iIndex = 0; 
