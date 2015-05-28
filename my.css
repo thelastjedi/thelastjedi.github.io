@@ -6,7 +6,7 @@ html, body {
 
 body {
   color: white;
-  background: url("images/bg.jpg");
+  background: black;
   font-size: 48px;
   font-family: 'Lucida Grande';
 }
