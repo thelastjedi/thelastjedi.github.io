@@ -1,7 +1,7 @@
 //github.com/ronv/Typewriter.js
 var aText = new Array(
-    "Always know",
-    "where your towel is."
+    "This website is currently under construction.",
+    "Check back again later."
 );
 var iSpeed = 100;
 var iIndex = 0;
