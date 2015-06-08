@@ -17,5 +17,6 @@ DerivedData
 *.xcuserstate
 **/.DS_Store
 _site/
+_drafts/
 .sass-cache/
 .jekyll-metadata

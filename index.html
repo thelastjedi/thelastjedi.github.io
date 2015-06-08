@@ -1,23 +1,36 @@
 ---
 layout: default
+title: Home
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<h4 class="title-works">Recent projects</h4>
+<ul class="list">
+  <li>
+    <a href="https://projectivec.github.io" target="_blank">
+      Projective-C <i class="fa fa-external-link"></i>
+    </a>
+    <br>
+    A collection of buggy Xcode projects for iOS interviews.
+  </li>
+  <li>
+    <a href="https://github.com/thelastjedi/MorseCodeWatchKit#demo" target="_blank">
+      MorseCodeWatchKit <i class="fa fa-external-link"></i>
+    </a>
+    <br>
+    WatchKit app for interpreting and saving notes created using Morse Code.
+  </li>
+  <li>
+    <a href="https://github.com/thelastjedi/Windy" target="_blank">
+      Windy: iOS App Extension <i class="fa fa-external-link"></i>
+    </a>
+    <br>
+    Example of Today Widget which provides current stats about wind using Core Location and OpenWeatherMap.
+  </li>
+  <li>
+    <a href="https://twitter.com/Hindi_Ebooks" target="_blank">
+      Hindi_Ebooks <i class="fa fa-external-link"></i>
+    </a>
+    <br>
+    A Twitter bot built with Python that translates the tweets mentioning its handle into Hindi.
+  </li>
+</ul>
