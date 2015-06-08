@@ -1,0 +1,8 @@
+i {  vertical-align: middle; }
+
+.list a { background-color: #FCF6F4; }
+
+.list a:hover { background-color: #FFEDE6; }
+
+.header a:hover { background-color: #fff; }
+footer a,a:hover { background-color: #fff; color: black; }

@@ -1,15 +1,44 @@
----
-layout: default
----
-<div class="post">
+<!doctype>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <header class="header">
+    <a href="/" class="home"><img src="/images/header/post.svg"></a>
+    <!-- <img src="../images/header/post.svg"> -->
+      <!-- <a href="/" class="home js-head">  &nbsp;</a> -->
+    </header>
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+    <div class="wrapper {% if page.date %}post-layout{% endif %}">
+      {% include sidebar.html %}
+      <div class="column js-content">
+        {% if page.date %}
+          <article>
+            <header class="post-header">
+              <h3 class="post-title">{{ page.title }}</h4>
+              {% if page.date %}
+                <small>
+                  {{ page.date | date_to_string }} -
+                  by <a href="https://twitter.com/harshi89" target="_blank">@harshi89</a>
+                </small>
+              {% endif %}
+            </header>
+            {{ content }}
+          </article>
+          <div class="pagination">
+            {% if page.previous %}
+              <a class="page-nav" href="{{ page.previous.url }}" id="js-previous-post">PREV</a>
+            {% endif %}
+            {% if page.next %}
+              <a class="page-nav" href="{{ page.next.url }}" id="js-next-post">NEXT</a>
+            {% endif %}
+          </div>
+        {% else %}
+          {{ content }}
+        {% endif %}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

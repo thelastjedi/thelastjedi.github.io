@@ -1,20 +1,19 @@
-<!DOCTYPE html>
+<!doctype>
 <html>
-
-  {% include head.html %}
-
+  <head>
+    {% include head.html %}
+  </head>
   <body>
+    <header class="header">
+    <a href="/" class="home"><img src="../images/header/{{ page.title }}.svg"></a>
+    </header>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="wrapper {% if page.date %}post-layout{% endif %}">
+     {% include am-sidebar.html %}
+      <div class="column js-content">
+          {{ content }}
       </div>
     </div>
-
     {% include footer.html %}
-
   </body>
-
 </html>
