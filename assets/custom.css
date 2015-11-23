@@ -6,3 +6,4 @@ i {  vertical-align: middle; }
 
 .header a:hover { background-color: #fff; }
 footer a,a:hover { background-color: #fff; color: black; }
+img { max-width: 45; max-height: 45; }
