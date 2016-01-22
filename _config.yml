@@ -7,3 +7,5 @@ timezone:         Asia/Kolkata
 sass:
   sass_dir: assets
   style: :compressed
+gems:
+  - jekyll-redirect-from
