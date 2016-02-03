@@ -1,7 +1,7 @@
 title:            "Harshita Chandra"
 url:              http://harshi.co
 permalink:        pretty
-highlighter:      pygments
+highlighter:      rouge
 google_analytics: UA-52347455-5
 timezone:         Asia/Kolkata
 sass:
